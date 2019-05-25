@@ -1,0 +1,524 @@
+<?php
+
+/*
+CN.lang.txt - for SolusVM
+Created by: GodMen
+Created on: 2019/05/25
+*/
+
+#<-- Encoding -->#
+$_lang["charset"] = "utf-8";
+
+#<-- General --># 
+$_lang["pagetitle"] = "控制面板";
+$_lang["headerfirst"] = "VPS";
+$_lang["headerlast"] = "控制面板";
+$_lang["headerslogan"] = "使用GOdMen服务器让你变得能nice";
+$_lang["headerselectgroup"] = "--虚拟服务器--";
+$_lang["logoutalert"] = "您确定要注销吗？";
+$_lang["logoutalertyes"] = "是的";
+$_lang["logoutalertno"] = "不";
+$_lang["welcomeback"] = "欢迎回来";
+$_lang["menumyaccount"] = "我的帐户";
+$_lang["menuhome"] = "主页";
+$_lang["logout"] = "注销";
+$_lang["processlock"] = "已经为此虚拟服务器启动了一个进程。请等待进程完成";
+$_lang["backbutton"] = "Back";
+
+#<-- Login --># 
+$_lang["loginboxheader"] = "登录";
+$_lang["loginblacklist"] = "您已被列入黑名单-联系支持部门";
+$_lang["loginfailed"] = "用户名或密码无效";
+$_lang["loginusername"] = "用户名";
+$_lang["loginpassword"] = "密码";
+$_lang["loginbutton"] = "登录";
+$_lang["loginforgotpassword"] = "忘记密码？";
+
+#<-- Home --># 
+$_lang["homenovirtualservers"] = "找不到虚拟服务器";
+$_lang["homeheader"] = "虚拟服务器";
+$_lang["homemanagebutton"] = "管理";
+$_lang["homevservertype"] = "VT";
+$_lang["homevserverhostname"] = "服务器名";
+$_lang["homevserveripaddress"] = "IP地址";
+$_lang["homevserverbandwidth"] = "带宽";
+$_lang["homevserveroperatingsystem"] = "操作系统";
+$_lang["homevservermemory"] = "Memory";
+$_lang["homevserverdisk"] = "硬盘";
+
+#<-- Account --># 
+$_lang["accountspecifycurrentpass"] = "必须指定当前密码！";
+$_lang["accountpasstooshort"] = "新密码的长度必须大于或等于6个字符！";
+$_lang["accountpassnotmatch"] = "您的新密码不匹配！";
+$_lang["accountpasssuccess"] = "密码更新成功";
+$_lang["accountfirstnameshort"] = "名字的长度必须超过2个字符！";
+$_lang["accountlastnameshort"] = "姓氏的长度必须超过2个字符！";
+$_lang["accountinvalidemail"] = "无效的电子邮件地址！";
+$_lang["accountsettingssuccess"] = "设置更新成功";
+$_lang["accountheader"] = "帐户设置";
+$_lang["accountfirstname"] = "名字";
+$_lang["accountlastname"] = "姓";
+$_lang["accountemailaddress"] = "电子邮件地址";
+$_lang["accountcompany"] = "单位";
+$_lang["accountlanguage"] = "语言";
+$_lang["accountloginalert"] = "登录警报";
+$_lang["accountupdatesettingsbutton"] = "更新设置";
+$_lang["accountchangeaccountpassword"] = "更改帐户密码";
+$_lang["accountcurrentpassword"] = "当前密码";
+$_lang["accountnewpassword"] = "新密码";
+$_lang["accountrepeatnewpassword"] = "重复新密码";
+$_lang["accountupdatepasswordbutton"] = "更新密码";
+
+#<-- Reinstall --># 
+$_lang["reinstallbutton"] = "重新安装";
+$_lang["reinstallheader"] = "重新安装";
+$_lang["reinstallboxtitle"] = "重新安装虚拟服务器";
+$_lang["reinstallboxmsg"] = "是否确实要重新安装此虚拟服务器？";
+$_lang["reinstallnomediafound"] = "找不到此虚拟服务器的媒体";
+$_lang["reinstallsuccess"] = "安装已开始。请等待10分钟完成";
+$_lang["reinstalltemplatenotfound"] = "此模板暂时不可用";
+$_lang["reinstallvtnotsupported"] = "您的虚拟化类型不支持此功能";
+
+#<-- Log -->#
+$_lang["logheader"] = "Log";
+$_lang["logdate"] = "Date";
+$_lang["logaction"] = "Action";
+$_lang["logip"] = "IP Address";
+$_lang["logstatus"] = "Status";
+$_lang["lognodata"] = "No Log Found";
+
+#<-- Remote -->#
+$_lang["consoleheader"] = "Serial Console";
+$_lang["vncheader"] = "VNC Viewer";
+$_lang["vncrefreshbutton"] = "Refresh";
+$_lang["viewconnectsettings"] = "View Connection Settings";
+$_lang["connectionip"] = "Address";
+$_lang["connectionport"] = "Port";
+$_lang["connectionusername"] = "Username";
+$_lang["connectionpassword"] = "Password";
+
+#<-- RDNS -->#
+$_lang["rdnsmanualmsg"] = "Reverse DNS is disabled for this ipaddress. Please contact support";
+$_lang["rdnsinvalidhostname"] = "Invalid Reverse DNS Entry";
+$_lang["rdnssuccessmsg"] = "Reverse DNS Entry Updated";
+$_lang["rdnsphrase"] = "Edit reverse DNS entry for";
+$_lang["rdnsupdatebutton"] = "Update";
+$_lang["rdnsclosewindowbutton"] = "Close";
+
+#<-- IPinfo -->#
+$_lang["ipinfoipaddress"] = "IP Address";
+$_lang["ipinfogateway"] = "Gateway";
+$_lang["ipinfonetmask"] = "Netmask";
+$_lang["ipinfonameserver"] = "Nameserver";
+$_lang["ipinfoclosewindowbutton"] = "Close";
+
+#<-- Central Backup --># 
+$_lang["centralbackupconfirmrestore"] = "All data currently on the virtual server will be destroyed\nAre you sure you want to continue?";
+$_lang["centralbackupconfirmdelete"] = "Backup will be deleted\nAre you sure you want to continue?";
+$_lang["centralbackupheader"] = "Central Backup";
+$_lang["centralbackupdate"] = "Date";
+$_lang["centralbackupfilename"] = "Filename";
+$_lang["centralbackupserver"] = "Server";
+$_lang["centralbackupstatus"] = "Status";
+$_lang["centralbackuprestorebutton"] = "Restore";
+$_lang["centralbackupdeletebutton"] = "Delete";
+$_lang["centralbacknobackups"] = "No Backups Found";
+$_lang["centralbackupcreatebutton"] = "Create Backup";
+$_lang["centralbackupsuccess"] = "Backup added to queue!";
+$_lang["centralbackupsuccessrestore"] = "Restore added to queue!";
+$_lang["centralbackupnocredits"] = "Backup system unavailable";
+$_lang["centralbackupnovt"] = "Virtualization type not supported";
+
+#<-- Lost Password --># 
+$_lang["lostpasswordverifilogin"] = "Login >>";
+$_lang["lostpasswordmsgsendpass"] = "We Have Sent You a New Password to the Email Address we Have on Account for You";
+$_lang["lostpasswordmsginvalidcode"] = "Verification Code is Incorrect";
+$_lang["lostpasswordmsgsentmail"] = "We Have Sent a Verification Email to the Email Address we Have Listed on Account for that Username";
+$_lang["lostpasswordmsgusernotfound"] = "The Username You Entered Could Not be Found on Our System";
+$_lang["lostpasswordmsgblacklisted"] = "You Have Been Blacklisted - Contact Support";
+$_lang["lostpasswordheader"] = "Lost Password";
+$_lang["lostpasswordusername"] = "Username";
+$_lang["lostpasswordbutton"] = "Request";
+$_lang["lostpasswordbacklink"] = "Back to login";
+
+#<-- System Error --># 
+$_lang["systemerrorheader"] = "System Error";
+$_lang["systemerrormsg"] = "A serious error has occured.<br />All system errors are logged. If the problem persists, Please contact support.";
+$_lang["systemerrorreset"] = "Click here to reset session";
+
+#<-- Control --># 
+$_lang["vserverreinstallbutton"] = "Reinstall";
+$_lang["vservervncbutton"] = "VNC";
+$_lang["vserverconsolebutton"] = "Serial Console";
+$_lang["vserverlogbutton"] = "Log";
+$_lang["vservertabhostname"] = "Hostname";
+$_lang["vservercentralbackupbutton"] = "Central Backup";
+$_lang["vserverlabelnewhostname"] = "New Hostname";
+$_lang["vserverchangehostnamebutton"] = "Change";
+$_lang["vserverhostnamechanged"] = "Hostname Updated";
+$_lang["vserverhostnamechangedreboot"] = "Hostname Updated. A reboot is required for the changes to take affect";
+$_lang["vserverhostnameforreference"] = "Hostname Updated for Reference Only";
+$_lang["vservernotvalidhostname"] = "Invalid Hostname";
+$_lang["vservertabrootpassword"] = "Root/Admin Password";
+$_lang["vserverlabelnewrootpassword"] = "New Root Password";
+$_lang["vserverchangerootpasswordbutton"] = "Change";
+$_lang["vserverrootpasswordchanged"] = "Root Password Updated";
+$_lang["vserverrootpasswordchangedreboot"] = "Root Password Updated. A reboot is required for the changes to take affect";
+$_lang["vservernotvalidrootpassword"] = "Invalid Root Password";
+$_lang["vservertabconsolepassword"] = "Console Password";
+$_lang["vserverlabelnewconsolepassword"] = "New Console Password";
+$_lang["vserverchangeconsolepasswordbutton"] = "Change";
+$_lang["vserverconsolepasswordchanged"] = "Console Password Updated";
+$_lang["vserverconsolepasswordchangedreboot"] = "Console Password Updated. A reboot is required for the changes to take affect";
+$_lang["vservernotvalidconsolepassword"] = "Invalid Console Password";
+$_lang["vservertabvncpassword"] = "VNC Password";
+$_lang["vserverlabelnewvncpassword"] = "New VNC Password";
+$_lang["vserverchangevncpasswordbutton"] = "Change";
+$_lang["vservervncpasswordchangedreboot"] = "VNC Password Updated. A reboot is required for the changes to take affect";
+$_lang["vservernotvalidvncpassword"] = "Invalid VNC Password";
+$_lang["vservertabapi"] = "API";
+$_lang["vserverapikey"] = "API Key";
+$_lang["vserverapihash"] = "API Hash";
+$_lang["vserverapistatus"] = "API Status";
+$_lang["vserverapikeybutton"] = "Generate";
+$_lang["vserverapinone"] = "No API settings found. Click the button below to generate your connection settings.";
+$_lang["vservertabsettings"] = "Settings";
+$_lang["vserverlabelsettingsapic"] = "APIC";
+$_lang["vserverlabelsettingsacpi"] = "ACPI";
+$_lang["vserverlabelsettingsvnc"] = "VNC";
+$_lang["vserverlabelsettingspae"] = "PAE";
+$_lang["vserverlabelsettingsboot"] = "Boot Order";
+$_lang["vserversettingsupdatesuccess"] = "Settings Updated. A reboot is required for the changes to take affect";
+$_lang["vservermountsuccess"] = "CDROM Mounted. A reboot is required for the changes to take affect";
+$_lang["vserverunmountsuccess"] = "CDROM Unmounted. A reboot is required for the changes to take affect";
+$_lang["vserversettingsbuttonon"] = "On";
+$_lang["vserversettingsbuttonoff"] = "Off";
+$_lang["vserversettingsbuttonset"] = "Set";
+$_lang["vserversettingsbordercdrom"] = "CDROM";
+$_lang["vserversettingsborderharddisk"] = "Hard Disk";
+$_lang["vserversettingsborderonly"] = "Only";
+$_lang["vservertabcdrom"] = "CDROM";
+$_lang["vservercdrommounted"] = "Mounted";
+$_lang["vservercdromselect"] = "Select";
+$_lang["vservercdrommountbutton"] = "Mount";
+$_lang["vservercdromunmountbutton"] = "Unmount";
+$_lang["vservertabquickbackup"] = "Quick Backup";
+$_lang["vserverquickbackupbutton"] = "Create";
+$_lang["vserverquickbackuptxt"] = "Quick backup allows you to create an image of your virtual server and have it delivered to you within your virtual server.";
+$_lang["quickbackupsuccess"] = "Quick Backup Started Successfully";
+$_lang["quickbackupmsgtooshort"] = "Quick Backup can only be run every 24 hours";
+$_lang["vservertabipaddress"] = "Network";
+$_lang["vservermainipset"] = "Set as Main IP Address";
+$_lang["vserveripv4iplabel"] = "IP Address";
+$_lang["vserveripv4dnslabel"] = "Reverse DNS";
+$_lang["vservermainipchangesuccess"] = "Main IP Address Updated";
+$_lang["vservermainipchangesuccessreboot"] = "Main IP Address Updated. A reboot is required for the changes to take affect";
+$_lang["vservernordnsset"] = "[Edit]";
+$_lang["vserverdisableipv6button"] = "Disable";
+$_lang["vserverenableipv6button"] = "Enable";
+$_lang["vserverenableipv6reboot"] = "IP Address Enabled. A reboot is required for the changes to take affect";
+$_lang["vserverdisableipv6reboot"] = "IP Address Disabled. A reboot is required for the changes to take affect";
+$_lang["vserveripv4actionlabel"] = "Action";
+$_lang["vserveripv6actionlabel"] = "Action";
+$_lang["vserveripv6iplabel"] = "IP Address";
+$_lang["vservershutdown"] = "Virtual Server Shutdown!";
+$_lang["vserverboot"] = "Virtual Server Booted!";
+$_lang["vserverreboot"] = "Virtual Server Rebooted!";
+$_lang["vserverpoweroff"] = "Virtual Server Powered Off!";
+$_lang["vserverpoweroffboxtitle"] = "Power Off Virtual Server";
+$_lang["vserverpoweroffboxmsg"] = "Are you sure you want to power off this virtual server?";
+$_lang["vserverchangeownerboxtitle"] = "Change Virtual Server Owner";
+$_lang["vserverchangeownerboxmsg"] = "Are you sure you want to change the owner of this virtual server?";
+$_lang["vserverrebootboxtitle"] = "Reboot Virtual Server";
+$_lang["vserverrebootboxmsg"] = "Are you sure you want to reboot this virtual server?";
+$_lang["vserverbootboxtitle"] = "Boot Virtual Server";
+$_lang["vserverbootboxmsg"] = "Are you sure you want to boot this virtual server?";
+$_lang["vservershutdownboxtitle"] = "Shutdown Virtual Server";
+$_lang["vservershutdownboxmsg"] = "Are you sure you want to shutdown this virtual server?";
+$_lang["vserveralertyes"] = "Yes";
+$_lang["vserveralertno"] = "No";
+$_lang["vserversuspendedbyadmin"] = "This virtual server has been suspended by the administrator. Please contact support";
+$_lang["vserverstateonline"] = "Online";
+$_lang["vserverstateoffline"] = "Offline";
+$_lang["vserverstatuslabel"] = "Status";
+$_lang["vserverhostnamelabel"] = "Hostname";
+$_lang["vserveripaddresslabel"] = "IP Address";
+$_lang["vserveroperatingsystemlabel"] = "Operating System";
+$_lang["vserveripv4label"] = "IPv4 Address";
+$_lang["vserveripv6label"] = "IPv6 Address";
+$_lang["vservernodelabel"] = "Node";
+$_lang["vserverswaplabel"] = "Swap";
+$_lang["vservervswaplabel"] = "VSwap";
+$_lang["vserverburstlabel"] = "Burst";
+$_lang["vserverdiskspacelabel"] = "Disk Space";
+$_lang["vserverbandwidthlabel"] = "Bandwidth";
+$_lang["vservervtlabel"] = "Virtualization Type";
+$_lang["vservermemorylabel"] = "Memory";
+$_lang["vserverrefreshbutton"] = "Refresh";
+$_lang["vserverbandwidthusagelabel"] = "Bandwidth Usage";
+$_lang["vservervswapusagelabel"] = "VSwap Usage";
+$_lang["vservermemoryusagelabel"] = "Memory Usage";
+$_lang["vserverdiskusagelabel"] = "Disk Usage";
+$_lang["vserverbarused"] = "Used";
+$_lang["vserverbarfree"] = "Free";
+$_lang["vserverbarof"] = "of";
+$_lang["vservertabcontrols"] = "Controls";
+$_lang["vservertabgeneral"] = "General";
+$_lang["vserverrebootbutton"] = "Reboot";
+$_lang["vserverbootbutton"] = "Boot";
+$_lang["vservershutdownbutton"] = "Shutdown";
+$_lang["vserversuspendbutton"] = "Suspend";
+$_lang["vserverpoweroffbutton"] = "Power Off";
+$_lang["vserveripv4assigned"] = "IPv4";
+$_lang["vserveripv6assigned"] = "IPv6";
+$_lang["vservertabstatistics"] = "Statistics";
+$_lang["vserverstatselect"] = "Select a Time Span:";
+$_lang["vserverstatselectnone"] = "--Select--";
+$_lang["vserverstathour"] = "Hour";
+$_lang["vserverstathours"] = "Hours";
+$_lang["vserverstatday"] = "Day";
+$_lang["vserverstatdays"] = "Days";
+$_lang["vserverstatweek"] = "Week";
+$_lang["vserverstatweeks"] = "Weeks";
+$_lang["vserverstatmonth"] = "Month";
+$_lang["vserverstatmonths"] = "Months";
+$_lang["vserverstatyear"] = "Year";
+$_lang["vserverpxeenabled"] = "Network boot is enabled for this virtual server";
+$_lang["vserverpxebuttonenable"] = "Activate Network Boot";
+$_lang["vserverpxebuttondisable"] = "Deactivate Network Boot";
+$_lang["vserverpxedisableboxtitle"] = "Deactivate Network Boot";
+$_lang["vserverpxedisableboxmsg"] = "Deactivating network boot will reboot the virtual server. Are you sure you want to continue?";
+$_lang["vserverpxeenableboxtitle"] = "Activate Network Boot";
+$_lang["vserverpxeenableboxmsg"] = "Activating network boot will reboot the virtual server. Are you sure you want to continue?";
+$_lang["vserverpxeenablesuccess"] = "Network boot activated. Open a VNC session to access the remote network";
+$_lang["vserverpxedisablesuccess"] = "Network boot deactivated. Virtual server is being rebooted";
+
+#<-- Added 1.10.00 -->#
+$_lang["vserverdisabletunbutton"] = "Disable TUN/TAP";
+$_lang["vserverenabletunbutton"] = "Enable TUN/TAP";
+$_lang["vservertundisableboxtitle"] = "Disable TUN/TAP";
+$_lang["vservertundisableboxmsg"] = "Are you sure you want to continue?";
+$_lang["vservertunenableboxtitle"] = "Enable TUN/TAP";
+$_lang["vservertunenableboxmsg"] = "Are you sure you want to continue?";
+$_lang["vservertunenablesuccess"] = "TUN/TAP Enabled";
+$_lang["vservertundisablesuccess"] = "TUN/TAP Disabled";
+$_lang["vserverdisablepppbutton"] = "Disable PPP";
+$_lang["vserverenablepppbutton"] = "Enable PPP";
+$_lang["vserverpppdisableboxtitle"] = "Disable PPP";
+$_lang["vserverpppdisableboxmsg"] = "Disabling PPP will reboot the virtual server. Are you sure you want to continue?";
+$_lang["vserverpppenableboxtitle"] = "Enable PPP";
+$_lang["vserverpppenableboxmsg"] = "Enabling PPP will reboot the virtual server. Are you sure you want to continue?";
+$_lang["vserverpppenablesuccess"] = "PPP Enabled";
+$_lang["vserverpppdisablesuccess"] = "PPP Disabled";
+$_lang["vserverlabelsettingsnic"] = "Network Card";
+$_lang["vserversettingsupdatenicsuccess"] = "Network Card Updated. A reboot is required for the changes to take affect";
+$_lang["vservertabresources"] = "Resource Usage";
+$_lang["vservertabnic"] = "Network Card";
+$_lang["vservertabinformation"] = "Information";
+$_lang["vservertabcdrom"] = "CDRom";
+$_lang["rdnsconnectpdns"] = "Could not connect to DNS server. Please try again later";
+$_lang["rdnsnoarecord"] = "Could not find an A record in your domains DNS";
+$_lang["rdnsnoaaaarecord"] = "Could not find an AAAA record in your domains DNS";
+$_lang["menuvps"] = "Virtual Servers";
+$_lang["menudns"] = "DNS";
+$_lang["dnsdomainbutton"] = "Manage";
+$_lang["dnsdomainheader"] = "Domains";
+$_lang["dnsdomaintabledomain"] = "Domain";
+$_lang["dnsdomaintablerecords"] = "Records";
+$_lang["dnsdomaintablens"] = "Nameservers";
+$_lang["dnsdomainnodomains"] = "No domains found";
+$_lang["dnsdomainaddheader"] = "Add New Domain";
+$_lang["dnsdomainaddbutton"] = "Add";
+$_lang["dnserrordomainlimit"] = "Can't add domain. You are already at your domain limit";
+$_lang["dnserrordbnoc"] = "DNS unavailable. Error code DNS-9845";
+$_lang["dnserrordb"] = "DNS unavailable. Error code DNS-4211";
+$_lang["dnserrornodnslist"] = "DNS unavailable. Error code DNS-3674";
+$_lang["dnssuccessdomainadded"] = "Domain Added";
+$_lang["dnserrordomnotadded"] = "Domain Can't be Added";
+$_lang["dnserrordomexists"] = "Domain Already Exists on the System";
+$_lang["dnserrorinvalidtld"] = "Invalid TLD";
+$_lang["dnserrorinvaliddomain"] = "Invalid Domain Name";
+$_lang["dnsrecordsaheader"] = "A Records";
+$_lang["dnsrecordstabledomain"] = "Domain";
+$_lang["dnsrecordstablettl"] = "TTL";
+$_lang["dnsrecordstableip"] = "IP Address";
+$_lang["dnsrecorddeletebutton"] = "Delete";
+$_lang["dnsrecordsaaaaheader"] = "AAAA Records";
+$_lang["dnssuccessrecordadded"] = "Record Added";
+$_lang["dnserrorrecordexists"] = "Record Already Exists";
+$_lang["dnserrorrecordinvalidttl"] = "Invalid TTL";
+$_lang["dnserrorrecordinvalidip"] = "Invalid IP Address";
+$_lang["dnssuccessrecorddeleted"] = "Record Deleted";
+$_lang["dnsrecordslabel"] = "Records";
+$_lang["dnsnameserverslabel"] = "Nameservers";
+$_lang["dnsrecordsnsheader"] = "NS Records";
+$_lang["dnsrecordstablenameserver"] = "Nameserver";
+$_lang["dnsrecordstablesubdomain"] = "Domain";
+$_lang["dnserrorrecordinvalidns"] = "Invalid Nameserver";
+$_lang["dnsrecordsmxheader"] = "MX Records";
+$_lang["dnsrecordstablepref"] = "Preference";
+$_lang["dnsrecordstablemailserver"] = "Mail Server";
+$_lang["dnserrorrecordinvalidpref"] = "Invalid Preference";
+$_lang["dnserrorrecordinvalidmailserver"] = "Invalid Mail Server";
+$_lang["dnserrorrecordinvalidcname"] = "Invalid Alias";
+$_lang["dnsrecordstablealias"] = "Alias";
+$_lang["dnsrecordscnameheader"] = "CNAME Records";
+$_lang["dnsrecordstxtheader"] = "TXT Records";
+$_lang["dnsrecordstablevalue"] = "Value";
+$_lang["dnsrecordssrvheader"] = "SRV Records";
+$_lang["dnsrecordstabletarget"] = "Target";
+$_lang["dnsrecordstableweight"] = "Weight";
+$_lang["dnsrecordstableport"] = "Port";
+$_lang["dnsrecordstableprio"] = "Priority";
+$_lang["dnserrorrecordinvalidport"] = "Invalid Port";
+$_lang["dnserrorrecordinvalidweight"] = "Invalid Weight";
+$_lang["dnserrorrecordinvalidprio"] = "Invalid Priority";
+$_lang["dnserrorrecordinvalidtarget"] = "Invalid Target";
+$_lang["dnserrorrecordinvaliddomus"] = "Invalid Domain. Prefix with _";
+$_lang["dnserrorrecordinvalidnodom"] = "You must enter a domain";
+$_lang["dnssuccessdomaindeleted"] = "Domain Deleted";
+$_lang["dnsdeletezoneboxtitle"] = "Delete Domain";
+$_lang["dnsdeletezoneboxmsg"] = "<strong>Are you sure you want to delete this domain?</strong><p>All records associated with this domain will deleted and the domain will no longer be controlled by our system.</p>";
+$_lang["dnsdeleterecordboxtitle"] = "Delete Record";
+$_lang["dnsdeleterecordboxmsg"] = "<strong>Are you sure you want to delete this record?</strong>";
+$_lang["vserverlabelsettingsnicemu"] = "Network Emulator";
+$_lang["vserversettingsupdatenicemusuccess"] = "Network Emulator Updated. A reboot is required for the changes to take affect";
+
+#<-- Added 1.11.00 -->#
+$_lang["optionsmenuheader"] = "Options";
+$_lang["optionsmenuwebv"] = "Full Version";
+$_lang["webversionboxtitle"] = "Options";
+$_lang["mobilelink"] = "Mobile Version";
+$_lang["webversionboxmsg"] = "<strong>Are you sure you want to switch to the full version?</strong>";
+$_lang["vserverlabelsettingsdiskdriver"] = "Disk Driver";
+$_lang["vserversettingsupdateddsuccess"] = "Disk Driver Updated. A reboot is required for the changes to take affect";
+$_lang["vserverlabelsettingskeyboard"] = "VNC Keymap";
+$_lang["vserversettingsupdatekeyboardsuccess"] = "VNC Keymap Updated. A reboot is required for the changes to take affect";
+
+#<-- Added 1.12.00 -->#
+$_lang["reinstallpassword"] = "<strong>Root/Admin Password:</strong> ";
+$_lang["consolesessioncancelbutton"] = "Cancel Session";
+$_lang["consolesessionbutton"] = "Create Session";
+$_lang["consolesessiontime"] = "Session Time";
+$_lang["consolesessionhour1"] = "1 Hour";
+$_lang["consolesessionhour2"] = "2 Hours";
+$_lang["consolesessionhour3"] = "3 Hours";
+$_lang["consolesessionhour4"] = "4 Hours";
+$_lang["consolesessionhour5"] = "5 Hours";
+$_lang["consolesessionhour6"] = "6 Hours";
+$_lang["consolesessionhour7"] = "7 Hours";
+$_lang["consolesessionhour8"] = "8 Hours";
+$_lang["consolesessioninfotext"] = "This serial console is for emergency access to your virtual server. It should not be used as a general SSH client.";
+$_lang["consolesessionexpires"] = "Expires";
+$_lang["vserverconsoleaccessadded"] = "Session Created";
+$_lang["vserverconsoleaccessaddedfailed"] = "Failed to create session";
+$_lang["vserverconsoleaccessremoved"] = "Session Cancelled";
+$_lang["vserverconsoleaccessremovedfailed"] = "Failed to cancel session";
+
+#<-- Added 1.13.00 -->#
+$_lang["vserverkvmreconfiguresuccess"] = "Networking Reconfigured";
+$_lang["vserverkvmreconfigureerror"] = "Networking could not be reconfigured. Unknown operating system";
+$_lang["vserverkvmreconfigurebutton"] = "Reconfigure Networking";
+$_lang["vserverpleasewait"] = "Please Wait...";
+$_lang["vserverkvmreconfigureboxtitle"] = "Reconfigure Networking";
+$_lang["vserverkvmreconfigureboxmsg"] = "Are you sure you want to re-configure this virtual server?<br><br>The virtual server will be shutdown then probed. If a compatible operating system is detected the networking will be configured and the virtual server rebooted";
+
+#<-- Added 1.13.01 -->#
+$_lang["vservertabdriver"] = "Drivers";
+$_lang["vserverlabeldriver"] = "Driver";
+$_lang["vserverchangedriverbutton"] = "Mount";
+$_lang["vservernodriver"] = "No drivers found";
+$_lang["vserverunmountdriverbutton"] = "Revert to Original CDRom Media";
+$_lang["vserversettingsupdatedriversuccess"] = "Drivers have been inserted into the CDRom drive";
+$_lang["vserversettingsupdatedrivererror"] = "Failed to insert drivers. Please try again later";
+$_lang["vserversettingsupdatedriverunmountsuccess"] = "Drivers have been removed from the CDRom drive and the original media inserted";
+$_lang["vserversettingsupdatedriverunmounterror"] = "Failed to remove drivers. Drivers will be removed when the virtual server is restarted";
+
+#<-- Added 1.14.00 -->#
+$_lang["controlpanelname"] = "VPS Control";
+$_lang["vservermodelerrorheading"] = "An Error Occurred!";
+$_lang["nodelockedmessage"] = "Access to this virtual server has been restricted. The node is currently under maintenance. Please try again later";
+$_lang["vservermodelerrorbutton"] = "Ok";
+$_lang["menuhelp"] = "Help";
+$_lang["modelsuccessheading"] = "Success!";
+$_lang["vserverstateunknown"] = "Unknown";
+$_lang["vserverstateunknownmsg"] = "An error occurred processing your request. The host is currently unavailable. Please try again later";
+$_lang["vserverrootpwdboxtitle"] = "Change Root/Admin Password";
+$_lang["vserverrootpwdboxmsg"] = "Are you sure you want to change the root password for this this virtual server?";
+$_lang["vservervncpwdboxtitle"] = "Change VNC Password";
+$_lang["vservervncpwdboxmsg"] = "Are you sure you want to change the VNC password for this this virtual server?";
+$_lang["vserverhostnameboxtitle"] = "Change Hostname";
+$_lang["vserverhostnameboxmsg"] = "Are you sure you want to change the hostname for this this virtual server?";
+$_lang["settingselecton"] = "On";
+$_lang["settingselectoff"] = "Off";
+$_lang["vservernomediaavailable"] = "No media available";
+$_lang["vserverppptitle"] = "PPP";
+$_lang["vservertuntitle"] = "TUN/TAP";
+$_lang["vserverpppboxtitle"] = "Change PPP Settings";
+$_lang["vserverpppboxmsg"] = "Are you sure you want to change the PPP settings for this this virtual server?<br>The virtual server may be rebooted.";
+$_lang["vservertunboxtitle"] = "Change TUN/TAP Settings";
+$_lang["vservertunboxmsg"] = "Are you sure you want to change the TUN/TAP settings for this this virtual server?<br>The virtual server may be rebooted.";
+$_lang["vserverquickbackupboxmsg"] = "Quick backup allows you to create an image of your virtual server and have it delivered to you within your virtual server.<br><br>Are you sure you want to continue?";
+$_lang["vserverbackupbutton"] = "Backup";
+
+#<-- Added 1.15.00 -->#
+$_lang["javaconsolebutton"] = "Java Console";
+$_lang["consolemessage1"] = "The following connection details may be used in any local SSH client. For Windows you can download a free copy of";
+$_lang["consolemessage2"] = "or for Mac/Linux open a terminal and use";
+$_lang["consolemessage3"] = "An alternative Java based console is also available, however recent Java updates may prevent the console from functioning correctly";
+$_lang["closewindowbutton"] = "Close Window";
+$_lang["vserverkvmrootpasswordboxtitle"] = "Change Root/Administrator Password";
+$_lang["vserverkvmrootpasswordboxmsg"] = "If the virtual server is Linux or Windows based and the partitioning layout can be recognized, the system will attempt to change the root/administrator password.<br><br>The virtual server will be shutdown then probed. If successful a new root/administrator password will be returned.<br><br>Are you sure you want to continue?";
+$_lang["vserverkvmrootpasswordchanged"] = "The root/administrator password has been changed<br><br>Password: ";
+$_lang["vserverkvmrootpasswordfailed"] = "The root/administrator password could not be changed. The virtual server might not be Linux or the partition layout may be unreadable.";
+$_lang["vserverinternalipassigned"] = "Internal Network";
+$_lang["vservertabclock"] = "Clock";
+$_lang["vservertabvideo"] = "Video";
+$_lang["vserverlabelclock"] = "Type";
+$_lang["vserverlabelvideotype"] = "Type";
+$_lang["vserverlabelvideo3d"] = "3D Acceleration";
+$_lang["vserverlabelvideo2d"] = "2D Acceleration";
+$_lang["vnchtmlbutton"] = "HTML5 VNC Client";
+$_lang["vncjavabutton"] = "Java VNC Client";
+$_lang["html5vncnewwindow"] = "Open in new window";
+
+#<-- Added 1.16.00 -->#
+$_lang["ipv6subnetdeleted"] = "IP Removed";
+$_lang["ipv6subnetnonselected"] = "No IP(s) selected";
+$_lang["ipv6subnetadded"] = "IP Added";
+$_lang["ipv6subnetunavailable"] = "IP Unavailable";
+$_lang["ipv6subnetalreadyexists"] = "IP Already Exists";
+$_lang["ipv6subnetinvalid"] = "Invalid Entry";
+$_lang["ipv6subnetdetails"] = "Subnet Details";
+$_lang["ipv6subnetsubnet"] = "Subnet";
+$_lang["ipv6subnetaddip"] = "Add IP";
+$_lang["ipv6subnetaddipbutton"] = "Add";
+$_lang["ipv6subnetaddresses"] = "IP Addresses";
+$_lang["ipv6subnetdeletebutton"] = "Remove Selected";
+$_lang["ipv6subnetlabel"] = "IPv6 Subnets";
+$_lang["vserverlabelsettingspvhvmdriver"] = "PV-on-HVM driver";
+$_lang["ipv6subnetwaiting"] = "<strong>A new IPv6 subnet is waiting for you</strong>";
+$_lang["ipv6subnetwaitingbutton"] = "Claim Now";
+$_lang["ipv6subnetmodelheader"] = "Claim - IPv6 Subnet";
+$_lang["ipv6subnetmodelbody"] = "Your virtual server has been allocated an IPv6 subnet to replace the current single IPv6 addresses. When you claim your subnet the single IPv6 addresses will be removed from your account within 14 days.<br><br>Are you sure you want to continue?";
+$_lang["ipv6subnetclaimsuccess"] = "Your IPv6 subnet has been configured. To manage your subnet click on the network tab.";
+$_lang["ipv6subnetclaimerror"] = "Your IPv6 subnet could not be configured. Try again later.";
+$_lang["noreinstallmessage"] = "You have reached your reinstall limit for this month";
+$_lang["ipv6subnetgloballimit"] = "Account limit reached";
+
+$_lang["rescueheader"] = "Rescue Mode";
+$_lang["rescueenabled"] = "Enabled - Rescue mode can take several minutes before it becomes accessible on the network";
+$_lang["rescuedisabled"] = "Disabled - The server is now rebooting into the original system";
+$_lang["rescueenableerror"] = "You must wait for all processes to complete before enabling rescue mode";
+$_lang["rescuedisableerror"] = "You must wait for all processes to complete before disabling rescue mode";
+$_lang["rescuedetailsheader"] = "SSH connection details";
+$_lang["rescuedetailsselect"] = "Select a kernel from the list below. A small appliance will be created and attached to the virtual server that can be accessed over the network.";
+$_lang["rescueenablemodalheader"] = "Enable Rescue Mode";
+$_lang["rescueenablemodalbody"] = "Enabling rescue mode will reboot the server. Are you sure you want to continue?";
+$_lang["rescuedisablemodalheader"] = "Disable Rescue Mode";
+$_lang["rescuedisablemodalbody"] = "Disabling rescue mode will reboot the server. Are you sure you want to continue?";
+$_lang["rescueip"] = "IP";
+$_lang["rescueport"] = "Port";
+$_lang["rescueuser"] = "User";
+$_lang["rescuepassword"] = "Password";
+?>
